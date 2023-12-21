@@ -1,0 +1,123 @@
+body {
+    font-family: Inter, sans-serif;
+}
+
+.title-box {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #C8C8C8;
+    position: relative;
+}
+
+.title {
+    color: #007F61;
+    font-size: 18.076px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    bottom: -14px;
+    padding: 5px 10px;
+}
+
+.bundle {
+    width: 342px;
+    border-radius: 3.615px;
+    border: 1px solid #C8C8C8;
+    font-size: 14.46px;
+    background: #FFF;
+    padding: 17px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.bundle-amt,
+.bundle-discount {
+    font-weight: 500;
+}
+
+.bundle-discount {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.popular-tag {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    top: -10px;
+    white-space: nowrap;
+    right: 0;
+    color: #007F61;
+}
+
+.bundle:hover {
+    border: 1px solid #007F61;
+}
+
+.bundle input[type="radio"] {
+    margin-right: 15px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.bundle,
+.total {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content table {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+
+.hidden-content table td {
+    padding: 2px;
+}
+
+.hidden-content select {
+    padding: 5px;
+    font-size: 10px;
+}
+
+input:checked+div .hidden-content {
+    display: block;
+}
+
+.total {
+    width: 100%;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.addToCart {
+    color: white;
+    width: 341px;
+    height: 48px;
+    border-radius: 4px 4px 4px 0px;
+    background: #007F61;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
